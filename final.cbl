@@ -6,7 +6,7 @@
        FILE-CONTROL.
            SELECT ORIGINAL-FILE ASSIGN TO "Kdrama.txt"
            ORGANIZATION IS SEQUENTIAL.
-           SELECT TEMP-FILE ASSIGN TO "temp.txt"
+           SELECT TEMP-FILE ASSIGN TO "temp.txt" 
            ORGANIZATION IS SEQUENTIAL.
 
        DATA DIVISION.
